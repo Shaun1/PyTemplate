@@ -1,5 +1,5 @@
 # PyTemplate
-![Build Status][travis]
+[![Build Status](https://travis-ci.org/Shaun1/PyTemplate.svg?branch=master)](https://travis-ci.org/Shaun1/PyTemplate)
 
 Everything you need to start building a new Python package.
 
@@ -19,7 +19,6 @@ Unit tests are run with [nose][nose] and are contained in the /tests folder.
 
 You can choose to run everything in a [Docker][docker] container (including documentation hosting on port 8000) by configuring the Dockerfile.
 
-[travis]: https://travis-ci.org/Shaun1/PyTemplate.svg?branch=master
 [hhgp]: http://docs.python-guide.org/en/latest/writing/structure/
 [pep8]: https://www.python.org/dev/peps/pep-0008/
 [pep257]: https://www.python.org/dev/peps/pep-0257/
