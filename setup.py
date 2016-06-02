@@ -16,7 +16,7 @@ setup(
 	author_email='shaun@hedlabs.com',
 	url='https://github.com/shaun1/PyTemplate',
 	license=license,
-	packages=find_packages(exclude=('tests', 'docs'))
+	packages=find_packages(exclude=('tests', 'docs')),
 	test_suite='nose.collector',
 	tests_require=['nose']
 )
