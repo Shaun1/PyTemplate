@@ -2,16 +2,11 @@ requirements:
 	pip install -r requirements.txt
 
 install:
-	python setup.py install
+	pipenv install
+	pipenv shell
 
-docs:
-	mkdocs build --clean
+lint:
+	pylint my_package; true
 
-test:
-	nosetests -v
-
-docker-build:
-	docker build -t my_container .
-
-docker-run:
-	docker run --rm -ti -P my_container /bin/bash
+test: lint
+	pytest
